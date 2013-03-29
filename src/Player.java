@@ -29,5 +29,4 @@ public class Player {
 		oppTeam = t;
 	}
 	
-	
 }

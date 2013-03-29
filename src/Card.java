@@ -26,4 +26,10 @@ public class Card {
 	    Card otherCard = (Card)c;
 	    return ((otherCard.getSuit() == this.getSuit()) && (otherCard.getValue() == this.getValue()));
 	}
+
+	@Override
+	public String toString() {
+		return "Card [suit=" + suit + ", value=" + value + "]";
+	}
+	
 }
