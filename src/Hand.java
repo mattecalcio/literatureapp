@@ -20,6 +20,10 @@ public class Hand {
 		return cards.contains(c);
 	}
 	
+	public Player getPlayer(){
+		return player;
+	}
+	
 	//remove c from list and return c
 	public Card takeCard(Card c){
 		if(cards.contains(c))
